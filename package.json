@@ -1,0 +1,36 @@
+{
+  "name": "faqhfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "deploy":"gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://faqh.github.io/faqhfood",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.2",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.7.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.7"
+  }
+}

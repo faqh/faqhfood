@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="src/styles/style.css"> -->
+  </head>
+  <body>
+    <header>
+      <sec-navbar></sec-navbar>
+      <sec-jumbotron></sec-jumbotron>
+    </header>
+    <main>
+      <sec-about></sec-about>
+      <div class="sec-food">
+        <div class="container">
+          <div class="row justify-content-center mb-4">
+            <div class="col-lg-5 col-md-8 col-sm-12">
+
+              <div class="icon ">
+                <img id="iconFood" alt="icon">
+                <h3>Explore Our Best Menu</h3>
+                <p>We serve more than just delicious food, We add more smiles, and more joy to your dining experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="detail-food">
+            <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="beef-tab"
+                  data-toggle="tab"
+                  href="#beef"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                  >Beef</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="chicken-tab"
+                  data-toggle="tab"
+                  href="#chicken"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                  >Chicken</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="lamb-tab"
+                  data-toggle="tab"
+                  href="#lamb"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                  >Lamb</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pasta-tab"
+                  data-toggle="tab"
+                  href="#pasta"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                  >Pasta</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="seafood-tab"
+                  data-toggle="tab"
+                  href="#seafood"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                  >Seafood</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="vegetarian-tab"
+                  data-toggle="tab"
+                  href="#vegetarian"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                  >Vegetarian</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="beef"
+                role="tabpanel"
+                aria-labelledby="beef-tab"
+              >
+                <div class="row" id="beef-row"></div>
+              </div>
+    
+              <div
+                class="tab-pane fade"
+                id="chicken"
+                role="tabpanel"
+                aria-labelledby="chicken-tab"
+              >
+                <div class="row" id="chicken-row"></div>
+              </div>
+    
+              <div
+                class="tab-pane fade"
+                id="lamb"
+                role="tabpanel"
+                aria-labelledby="lamb-tab"
+              >
+                <div class="row" id="lamb-row"></div>
+              </div>
+    
+              <div
+                class="tab-pane fade"
+                id="pasta"
+                role="tabpanel"
+                aria-labelledby="pasta-tab"
+              >
+                <div class="row" id="pasta-row"></div>
+              </div>
+    
+              <div
+                class="tab-pane fade"
+                id="seafood"
+                role="tabpanel"
+                aria-labelledby="seafood-tab"
+              >
+                <div class="row" id="seafood-row"></div>
+              </div>
+    
+              <div
+                class="tab-pane fade"
+                id="vegetarian"
+                role="tabpanel"
+                aria-labelledby="vegetarian-tab"
+              >
+                <div class="row" id="vegetarian-row"></div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <sec-footer></sec-footer>
+  </body>
+</html>
